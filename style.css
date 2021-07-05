@@ -145,5 +145,10 @@ header{
     .board{
         width:95vw;
     } 
+    #newGameButton{
+    padding: 5px 5px;
+    font-size: 15px;
+    
+}
     
 }
