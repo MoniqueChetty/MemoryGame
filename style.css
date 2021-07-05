@@ -160,5 +160,19 @@ header{
         height: 16vh;
         
     }
+  .winner {
+    /* background-color: white; */
+    width: 60vw;
+    height: 70vw;
+    position: fixed;
+    top: 17vh;
+    left: 30vw;
+    border-radius: 10px; 
+    
+}
+.winner img{
+    height: 50vw;
+    
+}
     
 }
