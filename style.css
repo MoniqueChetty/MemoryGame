@@ -46,6 +46,9 @@ header{
     cursor: pointer;
     
 }
+.images{
+    visibility: hidden;
+}
 .gameWrapper{
     font-size: 5vw;
     text-align: center;

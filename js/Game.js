@@ -13,7 +13,7 @@ export default class Game {
       this.board[tile] = baseArray[random];
       baseArray.splice(random, 1);
     }
-    console.log(this.board, ' in setNewArray');
+    // console.log(this.board, ' in setNewArray');
     return this.board;
   }
 }
