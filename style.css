@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-image: url(./assets/backgroundimag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    background-color: rgba(58, 156, 247, 0.582);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding:10px 20px;
+}
+.header h3{
+    color: white;
+    font-size: 75%;
+    
+     text-shadow:
+       3px 3px 0 blue,
+     -1px -1px 0 blue,  
+      1px -1px 0 blue,
+      -1px 1px 0 blue,
+       1px 1px 0 blue;
+}
+.trysCounter{
+    color: blue;
+    font-size: 50%;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+#newGameButton{
+    padding: 15px 15px;
+    background-color: blue;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+.gameWrapper{
+    font-size: 5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+       
+}
+.board{
+    width: 70vw;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    background-color: rgba(58, 156, 247, 0.85) ;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+.board-tile{
+    width: 100%;
+    height: 18vh;
+    border: 1px solid rgba(48, 122, 190, 0.75);
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    /* place-items: center; */
+    /* align-self: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.active{
+    background-image: url(./assets/ballOpen.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    /* object-fit: contain; */
+    
+}
+.activeCard img{
+    height: 100%;
+    
+}
+.activeWin{
+    background-color: rgba(58, 156, 247, 0.75);
+}
+.winner {
+    /* background-color: white; */
+    width: 30vw;
+    height: 40vw;
+    position: fixed;
+    top: 17vh;
+    left: 30vw;
+    border-radius: 20px; 
+    visibility: hidden;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    background-color: rgba(31, 107, 179, 0.95);
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6); 
+}
+.winner img{
+    height: 30vw;
+    
+}
+.winner h3{
+    color: white;
+    font-size: 95%;
+   text-shadow:
+       3px 3px 0 red,
+     -1px -1px 0 red,  
+      1px -1px 0 red,
+      -1px 1px 0 red,
+       1px 1px 0 red;
+}
+@media screen and (max-width:500px ) {
+    .activeCard img{
+        width: 100%;
+    } 
+    
+}
