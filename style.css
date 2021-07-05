@@ -148,7 +148,10 @@ header{
     #newGameButton{
     padding: 5px 5px;
     font-size: 15px;
-    
-}
+    border-radius: 10px;
+    }
+    header{
+        padding:5px 5px;
+    }
     
 }
