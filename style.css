@@ -143,6 +143,9 @@ header{
     }
     .board{
         width:95vw;
+        margin-top: 15px;
+        padding: 15px;
+        height: 70vh;
     } 
     #newGameButton{
     padding: 5px 5px;
@@ -153,10 +156,9 @@ header{
         height: 65px;
         padding:5px 5px;
     }
-    .board{
-        margin-top: 15px;
-        padding: 15px;
-        height: 70vh;
+    .board-tile{
+        height: 17.4vh;
+        
     }
     
 }
