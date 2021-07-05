@@ -141,6 +141,9 @@ header{
 @media screen and (max-width:500px ) {
     .activeCard img{
         width: 100%;
+    }
+    .board{
+        width:95vw;
     } 
     
 }
