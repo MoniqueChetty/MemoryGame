@@ -118,7 +118,7 @@ header{
     justify-content: center;
     align-items: center;
     transition: all 1s ease;
-    background-color: rgba(31, 107, 179, 0.95);
+    background-color: rgba(8, 101, 187, 0.95);
     -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6); 
@@ -166,7 +166,7 @@ header{
     height: 70vw;
     position: fixed;
     top: 17vh;
-    left: 30vw;
+    left: 20vw;
     border-radius: 10px; 
     
 }
