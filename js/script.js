@@ -35,7 +35,7 @@ let onTileClick = (tileIndex) => {
     winner.style.visibility = 'visible';
   }
 
-  trysCount.innerHTML = `${game.trysCounter} Try's`;
+  trysCount.innerHTML = `${game.trysCounter} Tries`;
 };
 
 newGameButton.addEventListener('click', () => {
